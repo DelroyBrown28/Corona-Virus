@@ -168,3 +168,58 @@ html {
     color: red;
 }
 
+.bottomWrapper {
+    position: absolute;
+    width: 1000px;
+    height: 217px;
+    border: 1px solid white;
+    bottom: 0;
+    left: 0;
+}
+
+.escapeBtn {
+    position: absolute;
+    width: 360px;
+    height: 80px;
+    bottom: 0;
+    background-color: #DBA877;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 100;
+    border-top-right-radius: 5px;
+}
+
+.btnTip {
+    position: absolute;
+    height: inherit;
+    width: 40px;
+    background-color: #fff;
+    right: 0;
+    border-top-right-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.rightsideWrapper {
+    position: absolute;
+    width: 900px;
+    height: 100%;
+    border: 1px solid white;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.virus-image {
+    position: absolute;
+    height: 920px;
+    width: 720px;
+    border: 15px solid #DBA877;
+}
