@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap');
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #000;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.topWrapper,
+.centerWrapper {
+    display: flex;
+}
+
+.topWrapper {
+    position: absolute;
+    height: 150px;
+    width: 1000px;
+    top: 0;
+    left: 0;
+    border: 1px solid white;
+}
+
+.logo {
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+}
+
+.virusClass-text,
+.family-text,
+.genera-text {
+    position: absolute;
+    color: #DBA877;
+    font-weight: 100;
+    top: 80px;
+
+
+}
+
+.virusClass-text {
+    left: 426px;
+    top: 80px;
+}
+
+.family-text {
+    right: 258px;
+}
+
+.genera-text {
+    right: 77px;
+}
+
+.lighterText {
+    font-weight: 100;
+    color: #fff;
+    opacity: 0.6;
+}
+
+.centerWrapper {
+    position: absolute;
+    height: 500px;
+    width: 1000px;
+    left: 0;
+    border: 1px solid white;
+
+}
+
+.main-title {
+    position: absolute;
+    color: #fff;
+    justify-self: center;
+    align-self: center;
+    font-size: 100px;
+    margin: 0;
+    margin-left: 200px;
+
+}
+
+.theO {
+    position: absolute;
+    bottom: 16px;
+    left: 216px;
+
+}
+
+.blackout {
+    color: #000;
+}
+
+.threatLevel {
+    position: absolute;
+    height: 85px;
+    width: 100px;
+    bottom: 120px;
+    left: 200px;
+}
+
+.threatLevel-text {
+    position: absolute;
+    color: #DBA877;
+    font-weight: 700;
+
+}
+
+.fortySeven-text {
+    position: absolute;
+    font-size: 25px;
+    right: 0;
+    margin: 0;
+    top: 30px;
+}
+
+.threat-skull {
+    position: absolute;
+    top: 30px;
+    width: 30px;
+    height: 32.73;
+    
+}
+
+.incubateDays {
+    position: absolute;
+    height: 85px;
+    width: 200px;
+    bottom: 120px;
+    left: 360px;
+}
+
+.incubate-text {
+    position: absolute;
+    color: #DBA877;
+    font-weight: 700;
+
+}
+
+.fourteenDays {
+    position: absolute;
+    font-size: 25px;
+    top: 30px;
+}
+
+.fatalities {
+    position: absolute;
+    height: 85px;
+    width: 200px;
+    bottom: 120px;
+    left: 561px;
+}
+
+.fatalities-text {
+    position: absolute;
+    color: #DBA877;
+    font-weight: 700;
+
+}
+
+.eithSevenFive {
+    position: absolute;
+    font-size: 25px;
+    top: 30px;
+    color: red;
+}
+
