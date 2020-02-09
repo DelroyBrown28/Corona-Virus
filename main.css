@@ -5,6 +5,7 @@ html {
     height: 100%;
     width: 100%;
     margin: 0;
+    overflow: hidden;
     background-color: #000;
     font-family: 'Lato', sans-serif;
     display: flex;
@@ -24,7 +25,7 @@ html {
     width: 1000px;
     top: 0;
     left: 0;
-    border: 1px solid white;
+    
 }
 
 .logo {
@@ -68,7 +69,7 @@ html {
     height: 500px;
     width: 1000px;
     left: 0;
-    border: 1px solid white;
+    
 
 }
 
@@ -172,7 +173,7 @@ html {
     position: absolute;
     width: 1000px;
     height: 217px;
-    border: 1px solid white;
+    
     bottom: 0;
     left: 0;
 }
@@ -209,7 +210,7 @@ html {
     position: absolute;
     width: 900px;
     height: 100%;
-    border: 1px solid white;
+    
     right: 0;
     display: flex;
     align-items: center;
@@ -219,7 +220,67 @@ html {
 
 .virus-image {
     position: absolute;
-    height: 920px;
-    width: 720px;
-    border: 15px solid #DBA877;
+    height: 730px;
+    width: 475px;
+    border: 12px solid #DBA877;
+}
+
+.plusBtn {
+    position: absolute;
+    height: 170px;
+    width: 80px;
+    background-color: #000;
+    border: 12px solid #DBA877;
+    left: 153px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.rightMenu {
+    position: absolute;
+    height: 50%;
+    width: 130px;
+    background-color: #DBA877;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.rightMenu-bottom {
+    position: absolute;
+    height: 50%;
+    width: 130px;
+    background-color: #BB9067;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu-icon {
+    position: absolute;
+    top: 43px;
+
+}
+
+.search-icon {
+    position: absolute;
+    top: 137px;
+}
+
+.hospital-icon {
+    position: absolute;
+    top: 254px;
+}
+
+.skullTwo-icon {
+    position: absolute;
+    top: 371px;
 }
