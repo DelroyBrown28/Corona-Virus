@@ -210,7 +210,6 @@ html {
     position: absolute;
     width: 900px;
     height: 100%;
-    
     right: 0;
     display: flex;
     align-items: center;
@@ -221,7 +220,8 @@ html {
 .virus-image {
     position: absolute;
     height: 730px;
-    width: 475px;
+    width: 600px;
+    left: 10%;
     border: 12px solid #DBA877;
 }
 
@@ -231,7 +231,7 @@ html {
     width: 80px;
     background-color: #000;
     border: 12px solid #DBA877;
-    left: 153px;
+    left: 45px;
     border-radius: 100px;
     display: flex;
     align-items: center;
